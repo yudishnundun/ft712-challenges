@@ -1,0 +1,45 @@
+.pf-index {
+  position: relative;
+  left: 10px;
+  height: 250px;
+  width: 20%;
+  background-color: #303030;
+  z-index: -1;
+}
+
+.pf-child {
+  position: relative;
+  left: 10px;
+  height: 250px;
+  width: 20%;
+  background-color: #797979;
+  z-index: -20;
+  margin-left: 1px;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+
+.inside-normal {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+
+i {
+  font-size: 3rem !important;
+  color: aliceblue;
+  font-weight: 600;
+}
